@@ -379,18 +379,16 @@ body {
 /* ====Footer==== */
 .footer-conteiner {
     display: flex;
+    align-items: baseline;
 
 }
 .join {
-    font-style: bold;
+    font-style: normal;
+    font-weight: 700;
     font-size: 14px;
-    line-height:  16px;
-    line-height: 100%;
-    align-content: Left;
-    vertical-align: Top;
-    letter-spacing: 3%;
+    line-height: 16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: center;
     color: #FFFFFF;
 }
 .logo-footer {
@@ -398,7 +396,9 @@ body {
     display: block;
 }
 .social-list-conteiner{
-    margin-right: 70px;
+    margin-left: 70px;
+    width: 206px;
+    height: 80px;
 }
 
 .contact-footer:not(:last-child) {
@@ -454,6 +454,9 @@ body {
     background-color: solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-link {
+    margin-left: 70px;
+}
 .socisl-list-icone-footer {
     fill: #FFFFFF;
 }
