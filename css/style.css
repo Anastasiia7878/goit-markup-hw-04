@@ -515,12 +515,14 @@ body {
     background-color: #F5F4FA;
     border: none;
     border-radius: 4px;
+    padding: 6px 22px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
     color: var(--primary-text-color-theme-dark);
     background-color: var(--accent-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.16);
 }
 
 .example-text {
@@ -540,4 +542,12 @@ body {
 
 .work-example-title {
     background-color: var(--primary-text-color-theme-dark);
+}
+.work-example-link {
+    display: block;
+    
+}
+.work-example-link:hover,
+.work-example-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.16);
 }
